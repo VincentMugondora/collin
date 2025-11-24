@@ -25,7 +25,7 @@ const Navbar = () => {
               <li>
                 <a href="#" className="relative inline-block pr-6 text-white/80 hover:text-white transition">
                   My Projects
-                  <span className="absolute -top-2 right-0 bg-orange-500 text-[10px] px-1.5 py-0.5 rounded-sm leading-none text-white">NEW</span>
+                  <span className="absolute -top-2 right-[-1] bg-orange-500 text-[10px] px-1.5 py-0.5 rounded-sm leading-none text-white">NEW</span>
                 </a>
               </li>
               <li>
