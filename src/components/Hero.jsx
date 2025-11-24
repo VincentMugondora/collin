@@ -68,13 +68,6 @@ const Hero = () => {
           <div className="relative h-[260px] sm:h-[320px] md:h-[360px] lg:h-[420px] flex items-center justify-center">
             <svg
               viewBox="0 0 300 300"
-              className="absolute inset-0 m-auto h-full w-full text-orange-400/80"
-              fill="none"
-            >
-              <circle cx="150" cy="150" r="130" stroke="currentColor" strokeWidth="6" strokeLinecap="round" />
-            </svg>
-            <svg
-              viewBox="0 0 300 300"
               className="absolute inset-0 m-auto h-full w-full text-orange-400/90 animate-[spin_20s_linear_infinite]"
               fill="none"
             >
