@@ -41,7 +41,7 @@ const BulbGraphic = () => (
 
 const Hero = () => {
   return (
-    <section className="relative bg-black text-white overflow-hidden" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}>
+    <section className="relative bg-black text-white" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-12 md:py-20 lg:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div>
@@ -67,21 +67,22 @@ const Hero = () => {
 
           <div className="relative h-[260px] sm:h-[320px] md:h-[360px] lg:h-[420px] flex items-center justify-center">
             <svg
-              viewBox="0 0 300 300"
-              className="absolute inset-0 m-auto h-full w-full text-orange-400/90"
+              viewBox="-20 -20 340 340"
+              className="absolute inset-0 m-auto h-full w-full text-orange-400/90 z-10"
               fill="none"
+              style={{ overflow: 'visible' }}
             >
               <defs>
-                <path id="textCircle" d="M150,150 m-110,0 a110,150 0 1,1 220,0 a110,150 0 1,1 -220,0" />
+                <path id="textCircle" pathLength="1000" d="M150,150 m-110,0 a110,150 0 1,1 220,0 a110,150 0 1,1 -220,0" />
               </defs>
-              <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700, letterSpacing: '0.25em' }}>
-                <textPath href="#textCircle" startOffset="0%">
-                  <animate attributeName="startOffset" from="0%" to="100%" dur="20s" repeatCount="indefinite" />
-                  COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
+              <text fill="currentColor" lengthAdjust="spacing" textLength="1000" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700, letterSpacing: '0.15em' }}>
+                <textPath href="#textCircle" startOffset="0">
+                  <animate attributeName="startOffset" from="0" to="1000" dur="20s" repeatCount="indefinite" />
+                  COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
                 </textPath>
               </text>
             </svg>
-            <img src="/img/light.png" alt="" />
+            <img src="/img/light.png" alt="" className="absolute inset-0 m-auto h-[70%] w-auto drop-shadow-[0_0_35px_rgba(245,158,11,0.7)] z-0 pointer-events-none" />        
           </div>
         </div>
 
