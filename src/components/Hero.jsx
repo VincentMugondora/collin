@@ -50,11 +50,6 @@ const Hero = () => {
                 <span className="block">Shaping the future,</span>
                 <span className="block">one pixel at a time</span>
               </h1>
-
-              <p className="mt-5 text-white/70 text-sm sm:text-base max-w-xl">
-                I design thoughtful, user-first digital experiences—blending form and
-                function to create products that inspire, engage, and make an impact.
-              </p>
               <div className="mt-8 flex items-center gap-6">
                 <a href="#work" className="inline-flex items-center px-5 py-3 rounded bg-orange-500 hover:bg-orange-600 text-black font-medium transition-colors">
                   View My Work
@@ -85,20 +80,6 @@ const Hero = () => {
               </svg>
               <img src="/img/light.png" alt="" className="absolute inset-0 m-auto h-[70%] w-auto drop-shadow-[0_0_35px_rgba(245,158,11,0.7)] z-0 pointer-events-none" />        
             </div>
-              fill="none"
-              style={{ overflow: 'visible' }}
-            >
-              <defs>
-                <path id="textCircle" pathLength="1000" d="M150,150 m-110,0 a110,150 0 1,1 220,0 a110,150 0 1,1 -220,0" />
-              </defs>
-              <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700 }}>
-                <textPath href="#textCircle" startOffset="0%" method="align" spacing="auto">
-                  <animate attributeName="startOffset" from="0%" to="100%" dur="20s" repeatCount="indefinite" />
-                  COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
-                </textPath>
-              </text>
-            </svg>
-            <img src="/img/light.png" alt="" className="absolute inset-0 m-auto h-[70%] w-auto drop-shadow-[0_0_35px_rgba(245,158,11,0.7)] z-0 pointer-events-none" />        
           </div>
         </div>
 
