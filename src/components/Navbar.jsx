@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='flex'>
+    <div className='flex justify-evenly'>
         <div>
             <img src="/logo.jpg" alt="" />
         </div>
