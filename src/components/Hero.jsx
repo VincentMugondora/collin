@@ -87,9 +87,9 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="mt-12 md:mt-16 flex items-center justify-center text-white/70 text-xs sm:text-sm">
+        <div className="pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 flex items-center text-white/70 text-xs sm:text-sm">
           <span>Scroll down</span>
-          <FiChevronDown className="ml-2" />
+          <FiChevronDown className="ml-2 animate-bounce" />
         </div>
       </div>
     </section>
