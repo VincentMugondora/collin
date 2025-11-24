@@ -45,7 +45,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-12 md:py-20 lg:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div>
-            <h1 className="font-black tracking-tight leading-tight text-[32px] sm:text-[40px] md:text-[52px] lg:text-[64px] xl:text-[72px]">
+            <h1 className="font-black tracking-tight leading-tight text-[28px] sm:text-[34px] md:text-[44px] lg:text-[56px] xl:text-[64px]">
               <span className="block">Shaping the future,</span>
               <span className="block">one pixel at a time</span>
             </h1>
