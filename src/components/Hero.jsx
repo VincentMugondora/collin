@@ -68,14 +68,15 @@ const Hero = () => {
           <div className="relative h-[260px] sm:h-[320px] md:h-[360px] lg:h-[420px] flex items-center justify-center">
             <svg
               viewBox="0 0 300 300"
-              className="absolute inset-0 m-auto h-full w-full text-orange-400/90 animate-[spin_20s_linear_infinite]"
+              className="absolute inset-0 m-auto h-full w-full text-orange-400/90"
               fill="none"
             >
               <defs>
-                <path id="textCircle" d="M150,150 m-128,0 a128,142 0 1,1 256,0 a128,142 0 1,1 -256,0" />
+                <path id="textCircle" d="M150,150 m-110,0 a110,150 0 1,1 220,0 a110,150 0 1,1 -220,0" />
               </defs>
-              <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700, letterSpacing: '0.2em' }}>
+              <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700, letterSpacing: '0.25em' }}>
                 <textPath href="#textCircle" startOffset="0%">
+                  <animate attributeName="startOffset" from="0%" to="100%" dur="20s" repeatCount="indefinite" />
                   COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
                 </textPath>
               </text>
