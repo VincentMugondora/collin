@@ -41,8 +41,8 @@ const BulbGraphic = () => (
 
 const Hero = () => {
   return (
-    <section className="relative bg-black text-white" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}>
-      <div className="flex items-center justify-center pt-0 md:pt-1 pb-14 md:pb-20">
+    <section className="relative h-screen bg-black text-white" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}>
+      <div className="flex items-center justify-center pt-16 sm:pt-20 md:pt-24 pb-12 md:pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div>
