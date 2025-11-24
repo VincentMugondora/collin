@@ -87,7 +87,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 flex items-center text-white/70 text-xs sm:text-sm" style={{ transform: 'translateY(100%)' }}>
+        <div className="pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 flex items-center text-white/70 text-xs sm:text-sm">
           <span>Scroll down</span>
           <FiChevronDown className="ml-2 animate-bounce" />
         </div>
