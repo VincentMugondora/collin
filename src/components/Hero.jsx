@@ -42,15 +42,28 @@ const BulbGraphic = () => (
 const Hero = () => {
   return (
     <section className="relative bg-black text-white" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-12 md:py-20 lg:py-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
-          <div>
-            <h1 className="font-black tracking-tight leading-tight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">
-              <span className="block">Shaping the future,</span>
-              <span className="block">one pixel at a time</span>
-            </h1>
+      <div className="flex items-center justify-center pt-6 md:pt-10 pb-14 md:pb-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div>
+              <h1 className="font-black tracking-tight leading-tight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">
+                <span className="block">Shaping the future,</span>
+                <span className="block">one pixel at a time</span>
+              </h1>
 
-            <p className="mt-5 text-white/70 text-sm sm:text-base max-w-xl">
+              <p className="mt-5 text-white/70 text-sm sm:text-base max-w-xl">
+                I design thoughtful, user-first digital experiences—blending form and
+                function to create products that inspire, engage, and make an impact.
+              </p>
+              <div className="mt-8 flex items-center gap-6">
+                <a href="#work" className="inline-flex items-center px-5 py-3 rounded bg-orange-500 hover:bg-orange-600 text-black font-medium transition-colors">
+                  View My Work
+                </a>
+                <a href="#portfolio" className="inline-flex items-center gap-2 text-white/80 hover:text-white border-b border-white/30 hover:border-white transition-colors">
+                  <span>Download PDF Portfolio</span>
+                  <FiArrowUpRight />
+                </a>
+              </div>
               I design thoughtful, user-first digital experiences—blending form and
               function to create products that inspire, engage, and make an impact.
             </p>
