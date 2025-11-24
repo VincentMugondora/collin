@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div className='bg-black text-white '>
+    <div className='bg-black text-white ' style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700 }}>
     <Navbar />
     </div>
   )
