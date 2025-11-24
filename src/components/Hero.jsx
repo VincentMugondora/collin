@@ -45,10 +45,11 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-12 md:py-20 lg:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div>
-            <h1 className="font-black tracking-tight leading-tight text-[28px] sm:text-[34px] md:text-[44px] lg:text-[56px] xl:text-[64px]">
+            <h1 className="font-black tracking-tight leading-tight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">
               <span className="block">Shaping the future,</span>
               <span className="block">one pixel at a time</span>
             </h1>
+
             <p className="mt-5 text-white/70 text-sm sm:text-base max-w-xl">
               I design thoughtful, user-first digital experiences—blending form and
               function to create products that inspire, engage, and make an impact.
