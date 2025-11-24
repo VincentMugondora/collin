@@ -7,7 +7,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 const Navbar = () => {
   const [open, setOpen] = useState(false)
   return (
-    <header className="w-full bg-black text-white" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}>
+    <header className="fixed top-0 left-0 right-0 z-50 w-full bg-black text-white" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}>
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-3 relative">
         <div className="flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
