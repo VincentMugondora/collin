@@ -75,9 +75,9 @@ const Hero = () => {
               <defs>
                 <path id="textCircle" pathLength="1000" d="M150,150 m-110,0 a110,150 0 1,1 220,0 a110,150 0 1,1 -220,0" />
               </defs>
-              <text fill="currentColor" lengthAdjust="spacing" textLength="1000" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700, letterSpacing: '0.15em' }}>
-                <textPath href="#textCircle" startOffset="0">
-                  <animate attributeName="startOffset" from="0" to="1000" dur="20s" repeatCount="indefinite" />
+              <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700 }}>
+                <textPath href="#textCircle" startOffset="0%" method="align" spacing="auto">
+                  <animate attributeName="startOffset" from="0%" to="100%" dur="20s" repeatCount="indefinite" />
                   COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
                 </textPath>
               </text>
