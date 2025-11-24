@@ -7,23 +7,17 @@ const Hero = () => {
         <div className="relative h-[340px] w-[340px] sm:h-[380px] sm:w-[380px] md:h-[420px] md:w-[420px]">
           <svg
             viewBox="-20 -20 340 340"
-            className="absolute inset-0 m-auto h-full w-full text-orange-400/90 z-10"
+            className="absolute inset-0 m-auto h-full w-full text-[#1f1f1f] z-10"
             fill="none"
             style={{ overflow: 'visible' }}
           >
             <defs>
-              <path id="textCircle" pathLength="1000" d="M150,150 m-110,0 a110,150 0 1,1 220,0 a110,150 0 1,1 -220,0" />
+              <path id="textcircle" pathLength="1000" d="M150,150 m-110,0 a110,150 0 1,1 220,0 a110,150 0 1,1 -220,0" />
             </defs>
             <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700 }}>
-              <textPath href="#textCircle" startOffset="0%" method="align" spacing="auto">
+              <textPath href="#textcircle" startOffset="0%" method="align" spacing="auto">
                 <animate attributeName="startOffset" from="0%" to="100%" dur="22s" repeatCount="indefinite" />
-                COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
-              </textPath>
-            </text>
-            <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700 }}>
-              <textPath href="#textCircle" startOffset="-50%" method="align" spacing="auto">
-                <animate attributeName="startOffset" from="-50%" to="50%" dur="22s" repeatCount="indefinite" />
-                COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
+                collin manyande • collin manyande • collin manyande • collin manyande • collin manyande • collin manyande • collin manyande • collin manyande • collin manyande • collin manyande •
               </textPath>
             </text>
           </svg>
