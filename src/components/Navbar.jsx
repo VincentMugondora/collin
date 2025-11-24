@@ -7,10 +7,15 @@ const Navbar = () => {
             <img src="/logo.jpg" alt="" />
         </div>
         <div className='flex'>
-            <h1>Home</h1>
-            <h1>About</h1>
-            <h1>Projects</h1>
-            <h1>Contact</h1>
+            <div>
+                <h1>Home</h1>
+                <h1>About</h1>
+                <h1>Projects</h1>
+                <h1>Contact</h1>
+            </div>
+            <div>
+                
+            </div>
         </div>
     </div>
   )
