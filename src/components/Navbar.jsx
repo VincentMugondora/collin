@@ -22,9 +22,11 @@ const Navbar = () => {
               <li>
                 <a href="#" className="text-orange-500 border-b border-orange-500 pb-0.5">Home</a>
               </li>
-              <li className="flex items-center gap-2">
-                <a href="#" className="text-white/80 hover:text-white transition">My Projects</a>
-                <span className="bg-orange-500 text-[10px] px-1.5 py-0.5 rounded-sm leading-none text-white">NEW</span>
+              <li>
+                <a href="#" className="relative inline-block pr-6 text-white/80 hover:text-white transition">
+                  My Projects
+                  <span className="absolute -top-2 right-0 bg-orange-500 text-[10px] px-1.5 py-0.5 rounded-sm leading-none text-white">NEW</span>
+                </a>
               </li>
               <li>
                 <a href="#" className="text-white/80 hover:text-white transition">Services</a>
@@ -48,9 +50,11 @@ const Navbar = () => {
           <div className="md:hidden absolute left-0 right-0 top-full bg-black/95 border-t border-white/10">
             <ul className="flex flex-col px-4 py-4 gap-3 text-sm">
               <li><a href="#" className="text-orange-500 border-b border-orange-500 pb-0.5">Home</a></li>
-              <li className="flex items-center gap-2">
-                <a href="#" className="text-white/80 hover:text-white">My Projects</a>
-                <span className="bg-orange-500 text-[10px] px-1.5 py-0.5 rounded-sm text-white leading-none">NEW</span>
+              <li>
+                <a href="#" className="relative inline-block pr-6 text-white/80 hover:text-white">
+                  My Projects
+                  <span className="absolute -top-2 right-0 bg-orange-500 text-[10px] px-1.5 py-0.5 rounded-sm text-white leading-none">NEW</span>
+                </a>
               </li>
               <li><a href="#" className="text-white/80 hover:text-white">Services</a></li>
               <li className="pt-2">
