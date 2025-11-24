@@ -77,8 +77,14 @@ const Hero = () => {
               </defs>
               <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700 }}>
                 <textPath href="#textCircle" startOffset="0%" method="align" spacing="auto">
-                  <animate attributeName="startOffset" from="0%" to="100%" dur="20s" repeatCount="indefinite" />
-                  COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
+                  <animate attributeName="startOffset" from="0%" to="100%" dur="22s" repeatCount="indefinite" />
+                  COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
+                </textPath>
+              </text>
+              <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700 }}>
+                <textPath href="#textCircle" startOffset="-50%" method="align" spacing="auto">
+                  <animate attributeName="startOffset" from="-50%" to="50%" dur="22s" repeatCount="indefinite" />
+                  COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
                 </textPath>
               </text>
             </svg>
