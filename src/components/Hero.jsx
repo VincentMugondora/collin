@@ -73,7 +73,7 @@ const Hero = () => {
             >
               <circle cx="150" cy="150" r="130" stroke="currentColor" strokeWidth="6" strokeDasharray="6 18" strokeLinecap="round" />
             </svg>
-            <BulbGraphic />
+            <img src="/img/light.png" alt="" />
           </div>
         </div>
 
