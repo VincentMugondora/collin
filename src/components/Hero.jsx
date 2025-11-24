@@ -72,7 +72,7 @@ const Hero = () => {
               fill="none"
             >
               <defs>
-                <path id="textCircle" d="M150,150 m-142,0 a142,142 0 1,1 284,0 a142,142 0 1,1 -284,0" />
+                <path id="textCircle" d="M150,150 m-128,0 a128,142 0 1,1 256,0 a128,142 0 1,1 -256,0" />
               </defs>
               <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700, letterSpacing: '0.2em' }}>
                 <textPath href="#textCircle" startOffset="0%">
