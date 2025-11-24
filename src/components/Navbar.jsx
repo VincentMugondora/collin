@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { MdOutlineLightMode } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -14,7 +17,9 @@ const Navbar = () => {
                 <h1>Contact</h1>
             </div>
             <div>
-                
+                <FaLinkedinIn />
+                <MdEmail />
+                <MdOutlineLightMode />
             </div>
         </div>
     </div>
