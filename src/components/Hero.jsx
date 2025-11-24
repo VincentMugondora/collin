@@ -64,24 +64,27 @@ const Hero = () => {
                   <FiArrowUpRight />
                 </a>
               </div>
-              I design thoughtful, user-first digital experiences—blending form and
-              function to create products that inspire, engage, and make an impact.
-            </p>
-            <div className="mt-8 flex items-center gap-6">
-              <a href="#work" className="inline-flex items-center px-5 py-3 rounded bg-orange-500 hover:bg-orange-600 text-black font-medium transition-colors">
-                View My Work
-              </a>
-              <a href="#portfolio" className="inline-flex items-center gap-2 text-white/80 hover:text-white border-b border-white/30 hover:border-white transition-colors">
-                <span>Download PDF Portfolio</span>
-                <FiArrowUpRight />
-              </a>
             </div>
-          </div>
 
-          <div className="relative h-[260px] sm:h-[320px] md:h-[360px] lg:h-[420px] flex items-center justify-center">
-            <svg
-              viewBox="-20 -20 340 340"
-              className="absolute inset-0 m-auto h-full w-full text-orange-400/90 z-10"
+            <div className="relative h-[260px] sm:h-[320px] md:h-[360px] lg:h-[420px] flex items-center justify-center">
+              <svg
+                viewBox="-20 -20 340 340"
+                className="absolute inset-0 m-auto h-full w-full text-orange-400/90 z-10"
+                fill="none"
+                style={{ overflow: 'visible' }}
+              >
+                <defs>
+                  <path id="textCircle" pathLength="1000" d="M150,150 m-110,0 a110,150 0 1,1 220,0 a110,150 0 1,1 -220,0" />
+                </defs>
+                <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700 }}>
+                  <textPath href="#textCircle" startOffset="0%" method="align" spacing="auto">
+                    <animate attributeName="startOffset" from="0%" to="100%" dur="20s" repeatCount="indefinite" />
+                    COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
+                  </textPath>
+                </text>
+              </svg>
+              <img src="/img/light.png" alt="" className="absolute inset-0 m-auto h-[70%] w-auto drop-shadow-[0_0_35px_rgba(245,158,11,0.7)] z-0 pointer-events-none" />        
+            </div>
               fill="none"
               style={{ overflow: 'visible' }}
             >
