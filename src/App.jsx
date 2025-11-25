@@ -1,10 +1,10 @@
 import React from 'react'
-import './components/fonts.css'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import MyTripNatureTravel from './components/MyTripNatureTravel'
+import './components/fonts.css'
 
 function App() {
   return (
@@ -21,10 +21,6 @@ function App() {
       </Routes>
     </div>
   )
-				<Route path="/mytrip" element={<MyTripNatureTravel />} />
-			</Routes>
-		</div>
-	)
 }
 
 export default App
