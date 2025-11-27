@@ -11,6 +11,7 @@ import Upick from './components/Upick'
 import UpickProcess from './components/UpickProcess'
 import UpickResult from './components/UpickResult'
 import UpickShowcase from './components/UpickShowcase'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <UpickProcess />
             <UpickResult />
             <UpickShowcase />
+            <Footer />
           </>
         } />
       </Routes>
