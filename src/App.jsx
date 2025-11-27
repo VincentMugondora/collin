@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import MyTripNatureTravel from './components/MyTripNatureTravel'
+import Process from './components/Process'
 import './components/fonts.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Hero />
             <About />
             <MyTripNatureTravel />
+            <Process />
           </>
         } />
       </Routes>

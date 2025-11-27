@@ -17,7 +17,7 @@ const Process = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10">
-          <div className="rounded-xl border border-white/10 bg-gradient-to-b from-slate-900 to-slate-950 p-6 sm:p-8">
+          <div className="rounded-xl border border-white/10 bg-linear-to-b from-slate-900 to-slate-950 p-6 sm:p-8">
             <h3 className="text-white font-extrabold text-lg sm:text-xl mb-2">Q2 | Problem</h3>
             <p className="text-white/80 text-sm leading-relaxed">
               Modern travelers often face decision fatigue when gathering inspiration, comparing options, and booking trips
@@ -25,7 +25,7 @@ const Process = () => {
             </p>
           </div>
 
-          <div className="rounded-xl border border-white/10 bg-gradient-to-b from-slate-900 to-slate-950 p-6 sm:p-8">
+          <div className="rounded-xl border border-white/10 bg-linear-to-b from-slate-900 to-slate-950 p-6 sm:p-8">
             <h3 className="text-white font-extrabold text-lg sm:text-xl mb-2">Q4 | My Role</h3>
             <ul className="text-white/80 text-sm leading-relaxed list-disc pl-5 space-y-1">
               <li>UX Research and competitive analysis</li>
@@ -34,7 +34,7 @@ const Process = () => {
             </ul>
           </div>
 
-          <div className="rounded-xl border border-white/10 bg-gradient-to-b from-slate-900 to-slate-950 p-6 sm:p-8">
+          <div className="rounded-xl border border-white/10 bg-linear-to-b from-slate-900 to-slate-950 p-6 sm:p-8">
             <h3 className="text-white font-extrabold text-lg sm:text-xl mb-2">Q1 | Upick Project</h3>
             <p className="text-white/80 text-sm leading-relaxed">
               A mobile experience that lets users explore curated destinations, view highlights, and plan nature-focused trips
@@ -42,7 +42,7 @@ const Process = () => {
             </p>
           </div>
 
-          <div className="rounded-xl border border-white/10 bg-gradient-to-b from-slate-900 to-slate-950 p-6 sm:p-8">
+          <div className="rounded-xl border border-white/10 bg-linear-to-b from-slate-900 to-slate-950 p-6 sm:p-8">
             <h3 className="text-white font-extrabold text-lg sm:text-xl mb-2">Q3 | Solution</h3>
             <ul className="text-white/80 text-sm leading-relaxed list-disc pl-5 space-y-1">
               <li>Card-based exploration with rich imagery</li>
