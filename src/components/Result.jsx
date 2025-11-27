@@ -9,8 +9,8 @@ const Result = () => {
           <span className="text-orange-500 font-medium">Mobile Application Design</span>
         </div>
 
-        <div className="max-w-4xl">
-          <h2 className="text-white font-black tracking-tight text-4xl sm:text-5xl md:text-6xl">
+        <div className="max-w-3xl">
+          <h2 className="text-white font-black tracking-tight leading-tight text-4xl sm:text-5xl md:text-6xl">
             The result of the design
           </h2>
           <p className="mt-4 text-white/80 text-sm sm:text-base leading-relaxed">
