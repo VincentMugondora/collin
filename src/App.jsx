@@ -10,6 +10,7 @@ import './components/fonts.css'
 import Upick from './components/Upick'
 import UpickProcess from './components/UpickProcess'
 import UpickResult from './components/UpickResult'
+import UpickShowcase from './components/UpickShowcase'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Upick />
             <UpickProcess />
             <UpickResult />
+            <UpickShowcase />
           </>
         } />
       </Routes>
