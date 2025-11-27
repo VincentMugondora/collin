@@ -41,55 +41,52 @@ const BulbGraphic = () => (
 
 const Hero = () => {
   return (
-    <section className="relative h-screen bg-black text-white" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}>
-      <div className="flex items-center justify-center pt-16 sm:pt-20 md:pt-24 pb-12 md:pb-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <div>
-              <h1 className="font-black tracking-tight leading-tight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">
+    <section className="relative min-h-screen bg-black text-white flex items-center" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}>
+      <div className="w-full py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 xl:gap-16 items-center">
+            <div className="text-center md:text-left">
+              <h1 className="font-black tracking-tight leading-tight text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
                 <span className="block">Shaping the future,</span>
                 <span className="block">one pixel at a time</span>
               </h1>
-              <p className="mt-5 text-white/70 text-sm sm:text-base max-w-xl">
-                I design thoughtful, user-first digital experiences—blending form and
-                function to create products that inspire, engage, and make an impact.
+              <p className="mt-4 sm:mt-6 text-sm xs:text-base sm:text-lg text-gray-300 max-w-lg mx-auto md:mx-0">
+                I'm a product designer passionate about creating intuitive and beautiful digital experiences that solve real problems.
               </p>
-              <div className="mt-8 flex items-center gap-6">
-                <a href="#work" className="inline-flex items-center px-5 py-3 rounded bg-orange-500 hover:bg-orange-600 text-black font-medium transition-colors">
+              <div className="mt-6 sm:mt-8 flex flex-col xs:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
+                <a
+                  href="#work"
+                  className="inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 border border-transparent text-sm xs:text-base font-medium rounded-md text-black bg-yellow-400 hover:bg-yellow-500 transition-colors duration-200"
+                >
                   View My Work
+                  <FiArrowUpRight className="ml-2 flex-shrink-0" />
                 </a>
-                <a href="#portfolio" className="inline-flex items-center gap-2 text-white/80 hover:text-white border-b border-white/30 hover:border-white transition-colors">
-                  <span>Download PDF Portfolio</span>
-                  <FiArrowUpRight />
+                <a
+                  href="#contact"
+                  className="inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 border border-gray-700 text-sm xs:text-base font-medium rounded-md text-white hover:bg-gray-900 transition-colors duration-200"
+                >
+                  Get In Touch
                 </a>
               </div>
             </div>
 
-            <div className="relative h-[260px] sm:h-[320px] md:h-[360px] lg:h-[420px] flex items-center justify-center">
-              <svg
-                viewBox="-20 -20 340 340"
-                className="absolute inset-0 m-auto h-full w-full text-orange-400/90 z-10"
-                fill="none"
-                style={{ overflow: 'visible' }}
-              >
-                <defs>
-                  <path id="textCircle" pathLength="1000" d="M150,150 m-110,0 a110,150 0 1,1 220,0 a110,150 0 1,1 -220,0" />
-                </defs>
-                <text fill="currentColor" style={{ fontFamily: 'TerminaTest, system-ui, sans-serif', fontWeight: 700 }}>
-                  <textPath href="#textCircle" startOffset="0%" method="align" spacing="auto">
-                    <animate attributeName="startOffset" from="0%" to="100%" dur="20s" repeatCount="indefinite" />
-                    COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE • COLLIN NYAMANDE •
-                  </textPath>
-                </text>
-              </svg>
-              <img src="/img/light.png" alt="" className="absolute inset-0 m-auto h-[70%] w-auto drop-shadow-[0_0_35px_rgba(245,158,11,0.7)] z-0 pointer-events-none" />        
+            <div className="relative h-56 xs:h-64 sm:h-80 md:h-96 lg:h-[32rem] flex items-center justify-center mt-8 md:mt-0">
+              <div className="w-full h-full max-w-md mx-auto flex items-center justify-center">
+                <BulbGraphic />
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 flex items-center text-white/70 text-xs sm:text-sm">
-          <span>Scroll down</span>
-          <FiChevronDown className="ml-2 animate-bounce" />
+        <div className="absolute bottom-6 sm:bottom-8 left-1/2 transform -translate-x-1/2">
+          <a
+            href="#about"
+            className="flex flex-col items-center text-gray-400 hover:text-yellow-400 transition-colors duration-200 group"
+            aria-label="Scroll down"
+          >
+            <span className="text-xs sm:text-sm mb-1 group-hover:text-yellow-400 transition-colors">Scroll Down</span>
+            <FiChevronDown className="animate-bounce w-5 h-5 sm:w-6 sm:h-6" />
+          </a>
         </div>
       </div>
     </section>
