@@ -8,6 +8,7 @@ import Process from './components/Process'
 import Result from './components/Result'
 import './components/fonts.css'
 import Upick from './components/Upick'
+import UpickProcess from './components/UpickProcess'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Process />
             <Result />
             <Upick />
+            <UpickProcess />
           </>
         } />
       </Routes>
