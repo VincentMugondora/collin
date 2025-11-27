@@ -3,7 +3,8 @@ import React from 'react'
 const MyTripNatureTravel = () => {
   return (
     <main
-      className="bg-black text-white min-h-screen"
+      id="mytrip"
+      className="bg-black text-white min-h-screen scroll-mt-24"
       style={{ fontFamily: 'TerminaTest, system-ui, sans-serif' }}
     >
       {/* Top hero band */}

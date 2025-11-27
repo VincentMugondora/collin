@@ -23,7 +23,7 @@ const Navbar = () => {
                 <a href="#" className="text-orange-500 border-b border-orange-500 pb-0.5">Home</a>
               </li>
               <li>
-                <a href="#" className="relative inline-block pr-6 text-white/80 hover:text-white transition">
+                <a href="#mytrip" className="relative inline-block pr-6 text-white/80 hover:text-white transition">
                   My Projects
                   <span className="absolute -top-2 right-[-1] bg-orange-500 text-[10px] px-1.5 py-0.5 rounded-sm leading-none text-white">NEW</span>
                 </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
             <ul className="flex flex-col px-4 py-4 gap-3 text-sm">
               <li><a href="#" className="text-orange-500 border-b border-orange-500 pb-0.5">Home</a></li>
               <li>
-                <a href="#" className="relative inline-block pr-6 text-white/80 hover:text-white">
+                <a href="#mytrip" className="relative inline-block pr-6 text-white/80 hover:text-white">
                   My Projects
                   <span className="absolute -top-2 right-0 bg-orange-500 text-[10px] px-1.5 py-0.5 rounded-sm text-white leading-none">NEW</span>
                 </a>

@@ -15,9 +15,9 @@ function App() {
           <>
             <Hero />
             <About />
+            <MyTripNatureTravel />
           </>
         } />
-        <Route path="/mytrip" element={<MyTripNatureTravel />} />
       </Routes>
     </div>
   )
