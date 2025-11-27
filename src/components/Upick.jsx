@@ -19,28 +19,29 @@ const Upick = () => {
 
           <div className="text-center mb-12 sm:mb-16">
             <p className="inline-flex items-center justify-center px-5 py-2 border border-white/40 rounded-full text-xs sm:text-sm mb-4 hover:bg-white hover:text-black transition-colors cursor-pointer">Click Here</p>
-            <h2 className="text-[2.4rem] sm:text-5xl md:text-6xl font-black leading-tight text-white">Upick Zimbabwe</h2>
+            <h2 className="text-white font-black tracking-tight leading-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">Upick Zimbabwe</h2>
           </div>
 
-          <div className="flex flex-wrap items-end justify-center gap-4 sm:gap-6 md:gap-8">
-            <div className="w-[38%] max-w-[180px] sm:max-w-[200px] md:max-w-[230px] aspect-[9/19] rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.85)] overflow-hidden flex items-center justify-center">
-              <div className="w-[86%] h-[86%] rounded-[2rem] bg-yellow-400" />
+          <div className="relative z-10 -mt-6 sm:-mt-8 md:-mt-10 flex flex-wrap items-end justify-center gap-4 sm:gap-6 md:gap-8">
+            <div className="w-[38%] max-w-[180px] sm:max-w-[200px] md:max-w-[230px] aspect-9/19 rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.85)] overflow-hidden flex items-center justify-center">
+              <div className="w-[86%] h-[86%] rounded-4xl bg-yellow-400" />
             </div>
-            <div className="hidden sm:flex w-[38%] max-w-[180px] sm:max-w-[200px] md:max-w-[230px] aspect-[9/19] rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.9)] overflow-hidden items-center justify-center">
-              <div className="w-[86%] h-[86%] rounded-[2rem] bg-yellow-400" />
+            <div className="hidden sm:flex w-[38%] max-w-[180px] sm:max-w-[200px] md:max-w-[230px] aspect-9/19 rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.9)] overflow-hidden items-center justify-center">
+              <div className="w-[86%] h-[86%] rounded-4xl bg-yellow-400" />
             </div>
-            <div className="w-[26%] max-w-[140px] sm:max-w-[160px] md:max-w-[190px] aspect-[9/19] rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_60px_rgba(0,0,0,0.95)] overflow-hidden flex items-center justify-center">
-              <div className="w-[86%] h-[86%] rounded-[2rem] bg-yellow-400" />
+            <div className="w-[26%] max-w-[140px] sm:max-w-[160px] md:max-w-[190px] aspect-9/19 rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_60px_rgba(0,0,0,0.95)] overflow-hidden flex items-center justify-center">
+              <div className="w-[86%] h-[86%] rounded-4xl bg-yellow-400" />
             </div>
-            <div className="hidden sm:flex w-[38%] max-w-[180px] sm:max-w-[200px] md:max-w-[230px] aspect-[9/19] rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.9)] overflow-hidden items-center justify-center">
-              <div className="w-[86%] h-[86%] rounded-[2rem] bg-yellow-400" />
+            <div className="hidden sm:flex w-[38%] max-w-[180px] sm:max-w-[200px] md:max-w-[230px] aspect-9/19 rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.9)] overflow-hidden items-center justify-center">
+              <div className="w-[86%] h-[86%] rounded-4xl bg-yellow-400" />
             </div>
-            <div className="w-[38%] max-w-[180px] sm:max-w-[200px] md:max-w-[230px] aspect-[9/19] rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.85)] overflow-hidden flex items-center justify-center">
-              <div className="w-[86%] h-[86%] rounded-[2rem] bg-yellow-400" />
+            <div className="w-[38%] max-w-[180px] sm:max-w-[200px] md:max-w-[230px] aspect-9/19 rounded-[2.5rem] border border-white/10 bg-neutral-900 shadow-[0_20px_50px_rgba(0,0,0,0.85)] overflow-hidden flex items-center justify-center">
+              <div className="w-[86%] h-[86%] rounded-4xl bg-yellow-400" />
             </div>
           </div>
         </div>
       </section>
+
     </>
   )
 }
