@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import MyTripNatureTravel from './components/MyTripNatureTravel'
 import Process from './components/Process'
+import Result from './components/Result'
 import './components/fonts.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <About />
             <MyTripNatureTravel />
             <Process />
+            <Result />
           </>
         } />
       </Routes>
