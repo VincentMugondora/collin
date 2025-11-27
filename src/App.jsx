@@ -7,6 +7,7 @@ import MyTripNatureTravel from './components/MyTripNatureTravel'
 import Process from './components/Process'
 import Result from './components/Result'
 import './components/fonts.css'
+import Upick from './components/Upick'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <MyTripNatureTravel />
             <Process />
             <Result />
+            <Upick />
           </>
         } />
       </Routes>
